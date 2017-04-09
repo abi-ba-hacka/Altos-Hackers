@@ -24,4 +24,7 @@ Route::get('/tip/{id}', function ($id) {
 Route::get('/canjear', function () {
     return view('page-canjear');
 });
+Route::get('/regalar-amigo', function () {
+    return view('page-amigos');
+});
 
