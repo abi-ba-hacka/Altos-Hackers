@@ -3,8 +3,8 @@
 
 We created a responsive web that works as a mobile app. Our objetive is to create native apps for Android and iOS for a better User Experience, but time didn't give us a chance!
 
-Live demo here:
-[http://159.203.141.73/public/]
+Live MVP here:
+http://159.203.141.73/public/
 
 ### Requirements
 
