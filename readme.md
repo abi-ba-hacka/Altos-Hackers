@@ -3,6 +3,9 @@
 
 We created a responsive web that works as a mobile app. Our objetive is to create native apps for Android and iOS for a better User Experience, but time didn't give us a chance!
 
+Live demo here:
+htt://159.203.141.73/public/
+
 ### Requirements
 
 Same as Laravel 5.4
@@ -15,3 +18,6 @@ Install the dependencies with. At this version it doesn't even require a databas
 ```sh
 $ composer install
 ```
+
+### MVP
+We will demostrate
