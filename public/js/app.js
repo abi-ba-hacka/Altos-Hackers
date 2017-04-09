@@ -8,7 +8,7 @@ $(".btn-regalar").click(function(){
 
   $("main").toggle();
   $("#logo").toggle();
-  $("#modal-regalar").fadeToggle();
+  $("#modal-regalar").toggle();
 
 })
 $(".sumar-dar").click(function(){
@@ -30,5 +30,5 @@ $(".btn-confirmar").click(function(){
   give.text('1')
   $("main").toggle();
   $("#logo").toggle();
-  $("#modal-confirmar").fadeToggle();
+  $("#modal-confirmar").toggle();
 })
