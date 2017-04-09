@@ -162,6 +162,10 @@ a.terminos {
 .panel-buttons a:last-child {
 	float: right;
 }
+a {
+	color: #fff;
+	text-decoration: none;
+}
 a:link.benefits-link,
 a:link.benefits-link  {
 	font-size: 19px;
@@ -185,6 +189,9 @@ a:link.benefits-link  {
     top: 0;
     z-index: 9999;
     display: none;
+}
+.modal-send {
+	position: relative;
 }
 .modal h2 {
 	margin: 0;
@@ -254,6 +261,7 @@ a:link.benefits-link  {
 }
 a.tip-block {
 	text-decoration: none;
+	color: #87868A;
 }
 .tip-block.selected h4 {
 	color: #fff; 

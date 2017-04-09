@@ -8,6 +8,6 @@
 			<a href="{{ url('/canjear') }}">Canjear</a>
 			<a href="#regalar" class="btn-regalar">Regalar</a>
 		</div>
-		<a href="{{ url('/beneficios') }}" class="benefits-link">Ver Beneficios</a>
+		<a href="{{ url('/') }}" class="benefits-link">Ver Beneficios</a>
 	</main>
 @stop

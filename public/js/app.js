@@ -12,14 +12,23 @@ $(".btn-regalar").click(function(){
 
 })
 $(".sumar-dar").click(function(){
-  console.log(give.text())
-  console.log(quantity.text())
-  if (give.text() < quantity.text()) {
-    var newvalue = give.text() + 1
+  if (Number(give.text()) < Number(quantity.text())) {
+    var newvalue = Number(give.text()) + 1
+    give.text(newvalue)
   }
 })
 $(".restar-dar").click(function(){
-  if (give.text() > 1) {
-    var newvalue = give.text() - 1
+  if (Number(give.text()) > 1) {
+    var newvalue = Number(give.text()) - 1
+    give.text(newvalue)
   }
+})
+
+
+// 
+$(".btn-confirmar").click(function(){
+  give.text('1')
+  $("main").toggle();
+  $("#logo").toggle();
+  $("#modal-confirmar").toggle();
 })
