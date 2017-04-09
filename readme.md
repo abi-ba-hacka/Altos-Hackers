@@ -4,7 +4,7 @@
 We created a responsive web that works as a mobile app. Our objetive is to create native apps for Android and iOS for a better User Experience, but time didn't give us a chance!
 
 Live demo here:
-[htt://159.203.141.73/public/]
+[http://159.203.141.73/public/]
 
 ### Requirements
 
